@@ -1,0 +1,177 @@
+label{
+      height: 24px;
+    }
+
+    button {
+      background-color: #00ccff;
+      color : white;
+      padding: 14px 20px;
+      margin: 8px 2px;
+      border: none;
+      cursor: pointer;
+      align-self: center;
+      border-radius: 15px;
+      position: relative;
+    }
+
+    button:hover{
+      opacity: 0.8;
+    }
+
+    input[type=text].login, input[type=password].login{
+      padding: 12px 20px;
+      margin: 4px 0;
+      width : 100%;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 15px;
+    }
+
+    .sample{
+      border: 1px solid #aaaaaa;
+      border-radius: 10px;
+      background: #ffffff;
+      height: 105%;
+      
+
+
+    }
+
+    .close_button{
+      background-color: #aa0000;
+    }
+
+
+    .reset{
+      background-color: #00ccff;
+    }
+
+    .modal{
+      display: none;
+      position: relative;
+      z-index: 1;
+      top: 20%;
+      height: 130%
+    }
+
+    .main{
+      display: block;
+      position: relative;
+      top: 20%;
+      height: 130%
+    }
+
+    .welcome{
+      border-bottom: 2px solid #aaaaaa;
+      
+      align-self: center;
+      text-align: center;
+      font-size: 16pt;
+      
+      margin: 5px 0;
+      width: 100%;
+    }
+
+    .warning{
+      width: 100%;
+      display: none;
+      border-radius: 15px;
+    }
+
+    .nav_bg{
+      background-color: #004d99;
+    }
+
+    .index_table{
+      cursor: default;
+      text-align: center;
+      border: 2px;
+      border-color: #004d99;
+      color: #004d99;
+    }
+
+    .td_link{
+      cursor: pointer;
+    }
+
+    td.td_link:hover{
+      background-color: #007bff;
+      color: white;
+    }
+
+    .game_td{
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    td.game_td:hover{
+      background-color: #007bff;
+      color: white;
+    }
+
+    .game_board{
+      width: 100%;
+      border: 1px;
+      border-color: #004d99;
+      color: #004d99;
+    }
+    
+    .board_div{
+      overflow: auto;
+    }
+
+    .game_bar{
+      border : 1px solid #004d99;
+      height: 30px;
+      color: #004d99;
+      cursor : default;
+      
+      text-align: center;
+      margin:10px 0;
+      background-color: white;
+      font-size: 13pt;
+    }
+    .game_id{
+      border-radius: 9px 0px 0px 9px;
+    }
+
+    .game_members{
+      border-radius: 0px 9px 9px 0px;
+      font-size: 15pt;
+      color: white;
+      background-color: #004d99;
+    }
+
+    .win{
+      border: 1px solid #004d99;
+      border-radius: 9px;
+      text-align: center;
+      font-size: 18pt;
+      color : #ffffff;
+      background-color: #004d99;
+      cursor: default;
+    }
+
+    .turn{
+      border : 1px solid #004d99;
+      height: 30px;
+      color: #004d99;
+      cursor : default;
+      margin: 10px 0;
+
+    }
+
+    .turn_name{
+      border-radius: 9px 0px 0px 9px;
+      text-align: right;
+
+    }
+
+    .turn_time{
+      border-radius: 0px 9px 9px 0px;
+      text-align: left;
+
+    }
